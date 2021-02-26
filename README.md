@@ -10,4 +10,6 @@ The course begins with a general overview of computer systems, memory hierarchy,
 
 The concept of adders and other digital logic unit "setpieces" are also revisted in preparation for understanding the major components of the 32-bit MIPS AL CPU. Labs build upon each other, eventually leading up to the creation of ones "own" MIPS CPU in Verilog.
 
+Labs 2 - 7 (all verilog labs) are included in this repo.
+
 Please enjoy, and contact me with any questions!

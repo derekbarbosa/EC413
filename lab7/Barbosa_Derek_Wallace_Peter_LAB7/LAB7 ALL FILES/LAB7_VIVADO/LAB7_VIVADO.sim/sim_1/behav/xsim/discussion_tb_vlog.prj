@@ -1,0 +1,34 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../EC413/LAB7/Lab_7_v_files/CPU.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/RegFile.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/alu.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/alucontrol.v" \
+"../../../../LAB7_VIVADO.srcs/sources_1/new/forwarding_mux.v" \
+"../../../../LAB7_VIVADO.srcs/sources_1/new/forwarding_unit.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/hazardunit.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/incrementer.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/jumpadd.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/load_in_counter.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/memory2.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/multiplycontrol.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/mux2to1.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/mux2to1_1bit.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/mux2to1_5bit.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/mux3to1_32bit.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/pipecontrol.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/reg_14bitne.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/reg_2bitne.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/reg_32bit.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/reg_32bitne.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/reg_5bitne.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/signextend.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/signextend26.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/stallmux.v" \
+"../../../../../EC413/LAB7/Lab_7_v_files/discussion_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
