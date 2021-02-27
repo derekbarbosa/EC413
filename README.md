@@ -1,5 +1,5 @@
 # EC413
-Computer Organization Fall 2020 Semester with Professor Herbordt
+Computer Organization Junior Fall 2020 Semester with Professor Herbordt
 
 Some contribution from Peter Wallace as a Lab Partner (for partner-based labs)
 
